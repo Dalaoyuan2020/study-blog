@@ -1,0 +1,17 @@
+{
+  "name": "study-blog",
+  "version": "1.0.0",
+  "description": "Winnie 的学习博客 · 共读笔记 · 工程思考",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": ["vitepress", "blog", "reading-notes"],
+  "author": "Winnie",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
