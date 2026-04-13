@@ -3,3 +3,9 @@ dist/
 .vitepress/cache/
 .vitepress/dist/
 .DS_Store
+
+# 私密档案（只本地保留，不推 GitHub）
+docs/
+
+# 原始封面图备份（public/ 已经有正式版）
+assets/
