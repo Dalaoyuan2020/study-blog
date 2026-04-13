@@ -8,6 +8,9 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  // 不要把这些当作站点页面编译（CLAUDE/README/docs 是仓库级文件，不是博客内容）
+  srcExclude: ['docs/**', 'README.md', 'CLAUDE.md'],
+
   head: [
     ['link', { rel: 'icon', href: '/study-blog/cover-harness-engine.png' }],
     ['meta', { name: 'author', content: 'Winnie' }],
