@@ -30,10 +30,14 @@ features:
 
 ## 📌 最新文章
 
-### [**Harness Engineering 其实是一台热力学引擎**](/reading/harness-engineering-chapter1)
+### [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age)
 
-*推理王国第一章共读心得 · 2026-04-11*
+*工程思考 · 2026-04-13*
 
-> 我读完第一章，合上书的感觉有点像吃了一道工艺很好的菜——摆盘漂亮、用料讲究，吃的时候也点头说"嗯不错"，但吃完了跟没吃一样。道理都在，就是没粘在我身上。
+> 2026 年 1 月，我花 8 块钱买了三个月的 Coding Plan。2026 年 4 月 13 日，阿里云宣布 Coding Plan Lite 基础套餐停止续费。
 >
-> 然后我和 Snowball 共读了一轮——
+> 三个月。从 8 块钱入场到这扇门关上，只用了三个月。
+
+## 📚 往期
+
+- 📖 [**Harness Engineering 其实是一台热力学引擎**](/reading/harness-engineering-chapter1) — *推理王国第一章共读心得 · 2026-04-11*

@@ -35,6 +35,18 @@ export default defineConfig({
           ],
         },
       ],
+      '/thinking/': [
+        {
+          text: '⚙️ 工程思考',
+          collapsed: false,
+          items: [
+            {
+              text: '几个月前 8 块钱买的 Coding Plan，现在停售了',
+              link: '/thinking/coding-plan-golden-age',
+            },
+          ],
+        },
+      ],
     },
 
     socialLinks: [
