@@ -50,6 +50,18 @@ export default defineConfig({
           ],
         },
       ],
+      '/essays/': [
+        {
+          text: '📔 杂文',
+          collapsed: false,
+          items: [
+            {
+              text: '朋友是主动选的，不是身边凑的',
+              link: '/essays/friends-chosen-not-collected',
+            },
+          ],
+        },
+      ],
     },
 
     socialLinks: [

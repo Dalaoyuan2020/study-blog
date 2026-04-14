@@ -30,14 +30,15 @@ features:
 
 ## 📌 最新文章
 
-### [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age)
+### [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected)
 
-*工程思考 · 2026-04-13*
+*杂文 · 2026-04-14*
 
-> 2026 年 1 月，我花 8 块钱买了三个月的 Coding Plan。2026 年 4 月 13 日，阿里云宣布 Coding Plan Lite 基础套餐停止续费。
+> 那天下午，我和师妹在实验室聊一件事。我说了一段我觉得很清楚、而且对她也真的有用的建议。但话说完，我能感觉到——她冷淡了。
 >
-> 三个月。从 8 块钱入场到这扇门关上，只用了三个月。
+> 晚上随手打开 Claude Opus，就是想发泄一下。没想到这段对话，解开了我多年的一个心结——**朋友不是身边凑的，是主动选的**。
 
 ## 📚 往期
 
+- ⚙️ [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age) — *工程思考 · 2026-04-13*
 - 📖 [**Harness Engineering 其实是一台热力学引擎**](/reading/harness-engineering-chapter1) — *推理王国第一章共读心得 · 2026-04-11*
