@@ -30,15 +30,16 @@ features:
 
 ## 📌 最新文章
 
-### [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected)
+### [**DIY-LLM Task 1 · 手搓一个分词器**](/reading/diy-llm/task1-tokenizer)
 
-*杂文 · 2026-04-14*
+*DIY-LLM 课程打卡 · 2026-04-16*
 
-> 那天下午，我和师妹在实验室聊一件事。我说了一段我觉得很清楚、而且对她也真的有用的建议。但话说完，我能感觉到——她冷淡了。
+> 报名了 Datawhale 的 diy-llm 课程——斯坦福 CS336 的中文共建版。一共 15 章 + 6 个大作业，主线是从 0 手搓一个 LLM。
 >
-> 晚上随手打开 Claude Opus，就是想发泄一下。没想到这段对话，解开了我多年的一个心结——**朋友不是身边凑的，是主动选的**。
+> Task 1 是分词器。**BPE 的核心思想一句话**：统计哪两个挨在一起的片段最常见，合并它——重复 N 次。跑通了一版 25 次合并，三个测试句子全部 encode → decode 可逆 ✅
 
 ## 📚 往期
 
+- 📔 [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected) — *杂文 · 2026-04-14*
 - ⚙️ [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age) — *工程思考 · 2026-04-13*
 - 📖 [**Harness Engineering 其实是一台热力学引擎**](/reading/harness-engineering-chapter1) — *推理王国第一章共读心得 · 2026-04-11*

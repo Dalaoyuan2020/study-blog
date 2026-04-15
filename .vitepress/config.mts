@@ -37,6 +37,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '🔬 DIY-LLM',
+          collapsed: false,
+          items: [
+            {
+              text: 'Task 1 · 手搓一个分词器',
+              link: '/reading/diy-llm/task1-tokenizer',
+            },
+          ],
+        },
       ],
       '/thinking/': [
         {
