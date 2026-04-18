@@ -45,6 +45,10 @@ export default defineConfig({
               text: 'Task 1 · 手搓一个分词器',
               link: '/reading/diy-llm/task1-tokenizer',
             },
+            {
+              text: 'Task 2 · PyTorch 与资源核算',
+              link: '/reading/diy-llm/task2-pytorch-resource-accounting',
+            },
           ],
         },
       ],

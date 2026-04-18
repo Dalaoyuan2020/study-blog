@@ -30,16 +30,17 @@ features:
 
 ## 📌 最新文章
 
-### [**DIY-LLM Task 1 · 手搓一个分词器**](/reading/diy-llm/task1-tokenizer)
+### [**DIY-LLM Task 2 · PyTorch 与资源核算**](/reading/diy-llm/task2-pytorch-resource-accounting)
 
-*DIY-LLM 课程打卡 · 2026-04-16*
+*DIY-LLM 课程打卡 · 2026-04-19*
 
-> 报名了 Datawhale 的 diy-llm 课程——斯坦福 CS336 的中文共建版。一共 15 章 + 6 个大作业，主线是从 0 手搓一个 LLM。
+> 这章教的不是技能，是**直觉**——看着代码，30 秒估出它烧多少显存、耗多少算力。
 >
-> Task 1 是分词器。**BPE 的核心思想一句话**：统计哪两个挨在一起的片段最常见，合并它——重复 N 次。跑通了一版 25 次合并，三个测试句子全部 encode → decode 可逆 ✅
+> 两个公式钉死一切：**训练时间 ≈ 6·N·tokens / (FLOPS·MFU)**、**训练显存 ≈ 16·N 字节**。手动验证了 16 字节公式精确命中；作业题 2 全做完——单卡 A100 训 GPT-2 XL 400K 步要 **6354 天（17 年）** 🤯
 
 ## 📚 往期
 
+- 🔬 [**DIY-LLM Task 1 · 手搓一个分词器**](/reading/diy-llm/task1-tokenizer) — *DIY-LLM 打卡 · 2026-04-16*
 - 📔 [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected) — *杂文 · 2026-04-14*
 - ⚙️ [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age) — *工程思考 · 2026-04-13*
 - 📖 [**Harness Engineering 其实是一台热力学引擎**](/reading/harness-engineering-chapter1) — *推理王国第一章共读心得 · 2026-04-11*
