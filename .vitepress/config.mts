@@ -28,6 +28,16 @@ export default defineConfig({
     sidebar: {
       '/reading/': [
         {
+          text: '📗 Claude Science 绿皮书',
+          collapsed: false,
+          items: [
+            {
+              text: '01 · Claude Science 是什么',
+              link: '/reading/claude-science/01-what-is-claude-science',
+            },
+          ],
+        },
+        {
           text: '🌟 推理王国',
           collapsed: false,
           items: [

@@ -30,15 +30,17 @@ features:
 
 ## 📌 最新文章
 
-### [**DIY-LLM Task 2 · PyTorch 与资源核算**](/reading/diy-llm/task2-pytorch-resource-accounting)
+### [**01 · Claude Science 是什么**](/reading/claude-science/01-what-is-claude-science)
 
-*DIY-LLM 课程打卡 · 2026-04-19*
+*Claude Science 绿皮书连载 · 2026-07-04*
 
-> 这章教的不是技能，是**直觉**——看着代码，30 秒估出它烧多少显存、耗多少算力。
+> 新坑开挖：用 Claude Code 把科研的粗活外包出去。聊天框帮你**想**，Claude Code 帮你**做**。
 >
-> 两个公式钉死一切：**训练时间 ≈ 6·N·tokens / (FLOPS·MFU)**、**训练显存 ≈ 16·N 字节**。手动验证了 16 字节公式精确命中；作业题 2 全做完——单卡 A100 训 GPT-2 XL 400K 步要 **6354 天（17 年）** 🤯
+> 实测半小时摸清一个陌生方向：25,331 篇翻车 → 收紧到 48 篇 → 7 大流派地图 + 窗口提示。结尾留两个真问题：**Windows 怎么办、烧钱怎么办**，下一篇接着讲。
 
 ## 📚 往期
+
+- 🔬 [**DIY-LLM Task 2 · PyTorch 与资源核算**](/reading/diy-llm/task2-pytorch-resource-accounting) — *DIY-LLM 打卡 · 2026-04-19*
 
 - 🔬 [**DIY-LLM Task 1 · 手搓一个分词器**](/reading/diy-llm/task1-tokenizer) — *DIY-LLM 打卡 · 2026-04-16*
 - 📔 [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected) — *杂文 · 2026-04-14*

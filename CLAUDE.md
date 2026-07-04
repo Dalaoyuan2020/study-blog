@@ -21,12 +21,13 @@
 | **作者署名** | **Winnie**（对外） |
 | **技术栈** | VitePress 1.6.4 + GitHub Pages + Actions + 淘宝镜像 |
 
-**已发布文章**（5 篇）：
+**已发布文章**（6 篇）：
 - [第 1 篇 · Harness Engineering 其实是一台热力学引擎](./reading/harness-engineering-chapter1.md)（共读笔记 · 2026-04-11）
 - [第 2 篇 · 几个月前 8 块钱买的 Coding Plan，现在停售了](./thinking/coding-plan-golden-age.md)（工程思考 · 2026-04-13，⚠️ 有事实错误待修正）
 - [第 3 篇 · 朋友是主动选的，不是身边凑的](./essays/friends-chosen-not-collected.md)（杂文 · 2026-04-14）
 - [第 4 篇 · DIY-LLM Task 1 · 手搓一个分词器](./reading/diy-llm/task1-tokenizer.md)（课程打卡 · 2026-04-16）
 - [第 5 篇 · DIY-LLM Task 2 · PyTorch 与资源核算](./reading/diy-llm/task2-pytorch-resource-accounting.md)（课程打卡 · 2026-04-19）
+- [第 6 篇 · 01 · Claude Science 是什么](./reading/claude-science/01-what-is-claude-science.md)（Claude Science 绿皮书连载 · 2026-07-04）
 
 ---
 
