@@ -35,6 +35,10 @@ export default defineConfig({
               text: '01 · Claude Science 是什么',
               link: '/reading/claude-science/01-what-is-claude-science',
             },
+            {
+              text: '02 · Windows 用不了？双击就能用',
+              link: '/reading/claude-science/02-run-it-on-windows',
+            },
           ],
         },
         {
