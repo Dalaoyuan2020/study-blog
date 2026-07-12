@@ -39,6 +39,10 @@ export default defineConfig({
               text: '02 · Windows 用不了？双击就能用',
               link: '/reading/claude-science/02-run-it-on-windows',
             },
+            {
+              text: '03 · C 盘跑爆之后：千锤百炼的 v0.1.3',
+              link: '/reading/claude-science/03-polish-polish-polish',
+            },
           ],
         },
         {
