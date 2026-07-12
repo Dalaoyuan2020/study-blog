@@ -43,6 +43,10 @@ export default defineConfig({
               text: '03 · C 盘跑爆之后：千锤百炼的 v0.1.3',
               link: '/reading/claude-science/03-polish-polish-polish',
             },
+            {
+              text: '04 · 一天一块二：最省钱的国产模型用法',
+              link: '/reading/claude-science/04-cheapest-way-to-run-it',
+            },
           ],
         },
         {
