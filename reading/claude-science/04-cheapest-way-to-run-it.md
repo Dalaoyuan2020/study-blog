@@ -66,7 +66,10 @@ GLM-5.2、Qwen3.7、Kimi K2.7、MiniMax M3、MiMo-V2.5、DeepSeek V4……清一
 
 ---
 
-CSA 仓库：**github.com/Dalaoyuan2020/claude-science-assistant**
-绿皮书仓库：**github.com/Dalaoyuan2020/claude-science-green-book**
+> 工具与全书素材都开源免费，可以手动打开看看（不看也不影响使用）：
+>
+> CSA 仓库：**github.com/Dalaoyuan2020/claude-science-assistant**
+>
+> 绿皮书仓库：**github.com/Dalaoyuan2020/claude-science-green-book**
 
 > 一句带走：把门槛一节一节拆掉，是为了让你能安心站在门里，只操心科研本身。
