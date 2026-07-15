@@ -47,6 +47,10 @@ export default defineConfig({
               text: '04 · 一天一块二：最省钱的国产模型用法',
               link: '/reading/claude-science/04-cheapest-way-to-run-it',
             },
+            {
+              text: '05 · 框架介绍：一层层看懂这个软件',
+              link: '/reading/claude-science/05-interface-framework',
+            },
           ],
         },
         {
