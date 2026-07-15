@@ -51,6 +51,10 @@ export default defineConfig({
               text: '05 · 框架介绍：一层层看懂这个软件',
               link: '/reading/claude-science/05-interface-framework',
             },
+            {
+              text: '06 · 设置中心：调成你自己的工作台',
+              link: '/reading/claude-science/06-settings-center',
+            },
           ],
         },
         {
