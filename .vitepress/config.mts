@@ -55,6 +55,10 @@ export default defineConfig({
               text: '06 · 设置中心：调成你自己的工作台',
               link: '/reading/claude-science/06-settings-center',
             },
+            {
+              text: '07 · 从 Claude Science 看 Science',
+              link: '/reading/claude-science/07-science-thinking-breast-cancer',
+            },
           ],
         },
         {

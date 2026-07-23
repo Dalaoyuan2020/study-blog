@@ -30,18 +30,26 @@ features:
 
 ## 📌 最新文章
 
-### [**01 · Claude Science 是什么**](/reading/claude-science/01-what-is-claude-science)
+### [**07 · 从 Claude Science 看 Science：一个乳腺癌案例，讲明白科研在做什么**](/reading/claude-science/07-science-thinking-breast-cancer)
 
-*Claude Science 绿皮书连载 · 2026-07-04*
+*Claude Science 绿皮书连载 · 2026-07-18*
 
-> 新坑开挖：用 Claude Code 把科研的粗活外包出去。聊天框帮你**想**，Claude Code 帮你**做**。
+> 很多人问 Claude Science 到底是干什么的。这一篇不讲按钮、不讲代码，用一个乳腺癌 SVM 分类的真实案例，讲清楚**科研究竟在做什么**：怎么定义问题、怎么验证假设、怎么解释结果、怎么把科研成果交给工程团队。
 >
-> 实测半小时摸清一个陌生方向：25,331 篇翻车 → 收紧到 48 篇 → 7 大流派地图 + 窗口提示。结尾留两个真问题：**Windows 怎么办、烧钱怎么办**，下一篇接着讲。
+> 附带完整研究报告、可复现 Python 脚本、产品化 Prompt 和 5 张分析图，可直接下载。
 
 ## 📚 往期
 
-- 🔬 [**DIY-LLM Task 2 · PyTorch 与资源核算**](/reading/diy-llm/task2-pytorch-resource-accounting) — *DIY-LLM 打卡 · 2026-04-19*
+- 📗 [**06 · 设置中心：把这台工作台调成你自己的**](/reading/claude-science/06-settings-center) — *Claude Science 绿皮书连载 · 2026-07-15*
+- 📗 [**05 · 框架介绍：从最外层，一层层看懂这个软件**](/reading/claude-science/05-interface-framework) — *Claude Science 绿皮书连载 · 2026-07-13*
+- 📗 [**04 · 我做这一切，就是想让你一天花一块二用上它**](/reading/claude-science/04-cheapest-way-to-run-it) — *Claude Science 绿皮书连载 · 2026-07-12*
+- 📗 [**03 · 我把自己的 C 盘跑爆了，然后有了这次更新**](/reading/claude-science/03-polish-polish-polish) — *Claude Science 绿皮书连载 · 2026-07-10*
+- 📗 [**02 · Windows 用不了？我们做了个双击就能用的**](/reading/claude-science/02-run-it-on-windows) — *Claude Science 绿皮书连载 · 2026-07-06*
+- 📗 [**01 · Claude Science 是什么**](/reading/claude-science/01-what-is-claude-science) — *Claude Science 绿皮书连载 · 2026-07-04*
 
+---
+
+- 🔬 [**DIY-LLM Task 2 · PyTorch 与资源核算**](/reading/diy-llm/task2-pytorch-resource-accounting) — *DIY-LLM 打卡 · 2026-04-19*
 - 🔬 [**DIY-LLM Task 1 · 手搓一个分词器**](/reading/diy-llm/task1-tokenizer) — *DIY-LLM 打卡 · 2026-04-16*
 - 📔 [**朋友是主动选的，不是身边凑的**](/essays/friends-chosen-not-collected) — *杂文 · 2026-04-14*
 - ⚙️ [**几个月前 8 块钱买的 Coding Plan，现在停售了**](/thinking/coding-plan-golden-age) — *工程思考 · 2026-04-13*
