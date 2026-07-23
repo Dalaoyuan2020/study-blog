@@ -2,7 +2,7 @@
 
 *Claude Science 绿皮书 · 第 7 篇 · 2026-07-18*
 
-![乳腺癌 SVM 分类案例](/claude-science/day07/images/model_evaluation.png)
+![Claude Science 绿皮书 07 · 从 Claude Science 看 Science](/claude-science/day07/cs07-cover.png)
 
 > 很多人问：Claude Science 到底是干什么的？这一篇我们不讲按钮、不讲代码，只讲一件事：**科研究竟在做什么？** 用一个乳腺癌 SVM 分类的真实案例，培养你的 Science 思维。
 
@@ -186,6 +186,12 @@ Claude Science 不是帮你写更多代码，而是帮你建立这种思维：�
 这个案例里，Claude Science 的产出是：研究报告、5 张分析图、可复现脚本、审查记录。这些东西说明科研已经做扎实了。
 
 接下来交给 Claude Code 的，才是一个可以开发的「乳腺 FNA 初筛助手」。
+
+---
+
+![科研五步法：从问题定义到可信交付的完整流程](/claude-science/day07/cs07-summary.png)
+
+*科研五步法：从问题定义到可信交付的完整流程*
 
 ---
 
