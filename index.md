@@ -30,16 +30,15 @@ features:
 
 ## 📌 最新文章
 
-### [**07 · 从 Claude Science 看 Science：一个乳腺癌案例，讲明白科研在做什么**](/reading/claude-science/07-science-thinking-breast-cancer)
+### [**08 · 界面·功能篇：一个实验看懂交互与版本**](/reading/claude-science/08-buttons-notebook-versions)
 
-*Claude Science 绿皮书连载 · 2026-07-18*
+*Claude Science 绿皮书连载 · 2026-07-24*
 
-> 很多人问 Claude Science 到底是干什么的。这一篇不讲按钮、不讲代码，用一个乳腺癌 SVM 分类的真实案例，讲清楚**科研究竟在做什么**：怎么定义问题、怎么验证假设、怎么解释结果、怎么把科研成果交给工程团队。
->
-> 附带完整研究报告、可复现 Python 脚本、产品化 Prompt 和 5 张分析图，可直接下载。
+> 沿用上一篇的乳腺癌 SVM 实验，这一次不换案例，专门看 **Claude Science 的界面按钮怎么把科研管理起来**：三大功能区、产物区的 9 项操作、`v2` 自动版本、Messages/Environment/Code 五个 Notebook 标签、图上圈哪里问哪里，还有那个被漏讲的 `+` 号。一张总结图带走整条实验流。
 
 ## 📚 往期
 
+- 📗 [**07 · 从 Claude Science 看 Science：一个乳腺癌案例，讲明白科研在做什么**](/reading/claude-science/07-science-thinking-breast-cancer) — *Claude Science 绿皮书连载 · 2026-07-18*
 - 📗 [**06 · 设置中心：把这台工作台调成你自己的**](/reading/claude-science/06-settings-center) — *Claude Science 绿皮书连载 · 2026-07-15*
 - 📗 [**05 · 框架介绍：从最外层，一层层看懂这个软件**](/reading/claude-science/05-interface-framework) — *Claude Science 绿皮书连载 · 2026-07-13*
 - 📗 [**04 · 我做这一切，就是想让你一天花一块二用上它**](/reading/claude-science/04-cheapest-way-to-run-it) — *Claude Science 绿皮书连载 · 2026-07-12*

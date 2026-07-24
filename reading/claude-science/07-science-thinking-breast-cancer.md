@@ -1,6 +1,6 @@
-# 07 · 从 Claude Science 看 Science：一个乳腺癌案例，讲明白科研在做什么
+# 07 · 从 Claude Science 看 Science：一个案例讲清科研流程
 
-*Claude Science 绿皮书 · 第 7 篇 · 2026-07-18*
+*Claude Science 绿皮书 · 第 7 篇 · 2026-07-24*
 
 ![Claude Science 绿皮书 07 · 从 Claude Science 看 Science](/claude-science/day07/cs07-cover.png)
 

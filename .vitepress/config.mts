@@ -59,6 +59,10 @@ export default defineConfig({
               text: '07 · 从 Claude Science 看 Science',
               link: '/reading/claude-science/07-science-thinking-breast-cancer',
             },
+            {
+              text: '08 · 界面·功能篇：一个实验看懂交互与版本',
+              link: '/reading/claude-science/08-buttons-notebook-versions',
+            },
           ],
         },
         {
