@@ -30,11 +30,11 @@ features:
 
 ## 📌 最新文章
 
-### [**08 · 界面·功能篇：一个实验看懂交互与版本**](/reading/claude-science/08-buttons-notebook-versions)
+### [**08 · 界面与溯源：这堆按钮里，哪个是真会天天点的**](/reading/claude-science/08-buttons-notebook-versions)
 
-*Claude Science 绿皮书连载 · 2026-07-24*
+*Claude Science 绿皮书连载 · 2026-07-25*
 
-> 沿用上一篇的乳腺癌 SVM 实验，这一次不换案例，专门看 **Claude Science 的界面按钮怎么把科研管理起来**：三大功能区、产物区的 9 项操作、`v2` 自动版本、Messages/Environment/Code 五个 Notebook 标签、图上圈哪里问哪里，还有那个被漏讲的 `+` 号。一张总结图带走整条实验流。
+> 跑通了案例，却对着界面不知道点哪？这一篇只回答一件事：屏幕上这堆东西，哪个是真会天天点的。从「导师一句这图怎么来的，翻了五分钟」讲起，把右栏产物旁的四个入口、尤其是 `⋮` 里的 **Provenance（溯源）** 讲透——聊天框给你结果，它给你底账。
 
 ## 📚 往期
 

@@ -60,7 +60,7 @@ export default defineConfig({
               link: '/reading/claude-science/07-science-thinking-breast-cancer',
             },
             {
-              text: '08 · 界面·功能篇：一个实验看懂交互与版本',
+              text: '08 · 界面与溯源：这堆按钮里，哪个是真会天天点的',
               link: '/reading/claude-science/08-buttons-notebook-versions',
             },
           ],
