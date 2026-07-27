@@ -2,7 +2,7 @@
 
 *Claude Science 绿皮书 · 第 8 篇 · 2026-07-25*
 
-![Claude Science 绿皮书 08 · 界面与溯源](/claude-science/day08/cs08-cover.png)
+![d08-00 Claude Science 绿皮书 08 · 界面与溯源](/claude-science/day08/cs08-cover.png)
 
 > 上一篇我拿乳腺癌 SVM 案例把科研流程跑通了。可跑通之后，不少人卡在一个更朴素的地方：屏幕亮了，图也出来了，然后盯着界面不知道该点哪。这一篇只回答一件事——这堆东西里，哪个是你真会天天点的。
 
@@ -23,7 +23,7 @@
 
 整个界面就四块，一块归一件事。
 
-![四个分区：左导航、中对话、右产物、底输入](/claude-science/day08/cs08-01-four-zones.png)
+![d08-01 四个分区：左导航、中对话、右产物、底输入](/claude-science/day08/cs08-01-four-zones.png)
 
 真正不同于聊天框的东西全在右栏
 
@@ -38,7 +38,7 @@
 
 右栏每个产物旁边，能点的就四样：版本号、收藏星、`⋮` 更多菜单、点开大图。
 
-![版本号、三点、大图——产物旁的入口](/claude-science/day08/cs08-03-four-entries.png)
+![d08-03 版本号、三点、大图——产物旁的入口](/claude-science/day08/cs08-03-four-entries.png)
 
 版本号、星标、三点、大图——四个就是全部
 
@@ -50,7 +50,7 @@
 
 点开 `⋮`，弹出九项。别被数量唬住，按用途一归，八项落进四类，剩下一项按下不表。
 
-![⋮ 菜单展开九项](/claude-science/day08/cs08-02-more-menu.png)
+![d08-02 ⋮ 菜单展开九项](/claude-science/day08/cs08-02-more-menu.png)
 
 九项里只有两项聊天框给不了
 
@@ -65,7 +65,7 @@
 
 Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，它就**展开成一条栏**，上面四个键。底账不藏在某个页面深处，就在这一个键后面。
 
-![溯源键藏在产物旁这条 ⋮ 里](/claude-science/day08/cs08-04-provenance.png)
+![d08-04 溯源键藏在产物旁这条 ⋮ 里](/claude-science/day08/cs08-04-provenance.png)
 
 点下溯源，底账就在这一条栏里
 
@@ -83,25 +83,25 @@ Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，�
 
 **Code**：真代码就摆在这，连那行 `# skill:figure-style-kernel.py (auto-injected on skill load)` 都在，那是 skill 自动注入的。每个细胞怎么写、调了哪个库、参数怎么给，全摊开着。想照着改一版、或把某段抄进自己项目，直接从这儿拿，不用猜它背后干了什么。
 
-![Code 标签：真代码连 skill 注入都在](/claude-science/day08/cs08-06-notebook-code.png)
+![d08-06 Code 标签：真代码连 skill 注入都在](/claude-science/day08/cs08-06-notebook-code.png)
 
 真代码连自动注入的 skill 都在这
 
 **Execution Log**：这一栏记的是运行实况：每个细胞跑了多久、哪一步卡住、报错停在第几行。上次有张图死活出不来，是这里告诉我卡在数据归一化那步、报了个 shape 对不上，不然我得从头猜到尾。整个案例五步走下来二十来分钟，哪步费时间一眼看得出。看输出和看代码是两回事：代码是你想让它干啥，这里是它实际干了啥。
 
-![Execution Log 标签：卡在哪一步看这里](/claude-science/day08/cs08-07-execution-log.png)
+![d08-07 Execution Log 标签：卡在哪一步看这里](/claude-science/day08/cs08-07-execution-log.png)
 
 卡在哪一步、跑了多久看这里
 
 **Messages**：一句「用 SVM 对乳腺癌做良/恶分类」，在这被拆成几步：加载数据、训练评估、解释可视化、出报告，每步的输入输出都列着。哪步加载了哪个数据集、哪步存了哪张图，都挂着一行小字。我下完指令习惯先瞄一眼这里，确认它理解得没跑偏：它拆错方向，你后面全是白跑。有一回它把任务目标拆偏了，我在这就拦下了，这一步最省返工。
 
-![Messages 标签：任务被拆成了几步](/claude-science/day08/cs08-10-notebook-messages.png)
+![d08-10 Messages 标签：任务被拆成了几步](/claude-science/day08/cs08-10-notebook-messages.png)
 
 一句指令被拆成几步都在这
 
 **Environment**：`ml-bc`、Python `3.13.14`、**152** 个包，连版本号一起存着，全列在这页。科研最怕「在我电脑上能跑」，别人照着这个包列表，就能把环境一模一样地还原出来。换台机器、或把数据交给师兄复现，我先把这页发过去，省得为「怎么我这跑不了」来回扯皮。
 
-![Environment 标签：可复现的底座](/claude-science/day08/cs08-11-notebook-environment.png)
+![d08-11 Environment 标签：可复现的底座](/claude-science/day08/cs08-11-notebook-environment.png)
 
 环境标签：152 个包连版本号一起存着
 
@@ -111,7 +111,7 @@ Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，�
 
 接上面那个 kernel 坏图。改完之后，`feature_importance.png` 旁边多了个 `v2`。
 
-![点版本号，能回到上一版](/claude-science/day08/cs08-05-version-zoom.png)
+![d08-05 点版本号，能回到上一版](/claude-science/day08/cs08-05-version-zoom.png)
 
 点版本号，能回到上一版
 
@@ -123,7 +123,7 @@ Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，�
 
 代码跑完图就出来了。这里的重点不是看图，是**问图**。
 
-![能指着图说这块，而不是描述这块](/claude-science/day08/cs08-08-annotate.png)
+![d08-08 能指着图说这块，而不是描述这块](/claude-science/day08/cs08-08-annotate.png)
 
 能指着图说这块，而不是描述这块
 
@@ -135,7 +135,7 @@ Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，�
 
 前面七节全是「它往外给你东西」。这个加号反过来，是「你往里送东西」的入口，所以放最后讲。
 
-![加号展开五项](/claude-science/day08/cs08-09-plus-menu.png)
+![d08-09 加号展开五项](/claude-science/day08/cs08-09-plus-menu.png)
 
 你往里送东西的唯一入口
 
@@ -148,7 +148,20 @@ Provenance 不是一个复杂面板。你在 `⋮` 里点一下「溯源」，�
 
 ## 总结：一张表带走
 
-![总结表：想干什么，点哪里](/claude-science/day08/cs08-summary.png)
+| 你想干什么 | 点哪里 | 在哪一层 | 什么时候会用到 |
+|---|---|---|---|
+| 看不懂一张图从哪来 | `⋮` → Provenance | 右 · 产物区 | 被问「这图怎么来的」时 |
+| 回到生成它的那句对话 | `⋮` → View in context | 右 · 产物区 | 要写实验过程时 |
+| 图改坏了想找上一版 | 产物左上 · 版本号 | 右 · 产物区 | 改 prompt 重跑之后 |
+| 把图发给合作者 | `⋮` → Copy link | 右 · 产物区 | 组会前 |
+| 产物太多找不着 | `⋮` → Star / Hide / Rename | 右 · 产物区 | 图攒了一堆后 |
+| 结题、投稿要归档 | `⋮` → Export Metadata | 右 · 产物区 | 结题、备份时 |
+| 确认 AI 拆对了步骤 | Notebook → Messages | 中 · Notebook 区 | 下完指令先瞄一眼 |
+| 想复现这个环境 | Notebook → Environment | 中 · Notebook 区 | 换电脑、交数据前 |
+| 指着图问这块啥意思 | 图上圈选 · annotate | 中 · Notebook 区 | 看不懂某一块时 |
+| 往里送文件 | 加号 → Attach files | 底 · 输入区 | 实验开始前 |
+| 让审查员再过一遍 | 加号 → Request review | 底 · 输入区 | 拿不准结论时 |
+| 把这段流程存成技能 | 加号 → Save as skill | 底 · 输入区 | 想下次复用时 |
 
 12 行里 6 行都指向右栏产物区
 
