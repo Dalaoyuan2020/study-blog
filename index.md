@@ -30,14 +30,15 @@ features:
 
 ## 📌 最新文章
 
-### [**08 · 界面与溯源：这堆按钮里，哪个是真会天天点的**](/reading/claude-science/08-buttons-notebook-versions)
+### [**09 · 疟疾论文笔记：上限在你选「怎么看」那一步就定好了**](/reading/claude-science/09-malaria-paper-notes)
 
-*Claude Science 绿皮书连载 · 2026-07-25*
+*Claude Science 绿皮书 · 第 9 篇背后论文的学习笔记 · 2026-07-29*
 
-> 跑通了案例，却对着界面不知道点哪？这一篇只回答一件事：屏幕上这堆东西，哪个是真会天天点的。从「导师一句这图怎么来的，翻了五分钟」讲起，把右栏产物旁的四个入口、尤其是 `⋮` 里的 **Provenance（溯源）** 讲透——聊天框给你结果，它给你底账。
+> 第 09 篇案例背后那篇论文的学习笔记。三种方法在同一份数据上走一遍：SVM 手工特征 88.27%，小 CNN 95.08%，EfficientNet 微调 96.50%。最大的跳发生在「换怎么看」那一步，漏报一次从 118 降到 34；后两步加起来不过 10 个。附三种方法的关键数字表、学到的三件事和复现入口。
 
 ## 📚 往期
 
+- 📗 [**08 · 界面与溯源：这堆按钮里，哪个是真会天天点的**](/reading/claude-science/08-buttons-notebook-versions) — *Claude Science 绿皮书连载 · 2026-07-25*
 - 📗 [**07 · 从 Claude Science 看 Science：一个乳腺癌案例，讲明白科研在做什么**](/reading/claude-science/07-science-thinking-breast-cancer) — *Claude Science 绿皮书连载 · 2026-07-18*
 - 📗 [**06 · 设置中心：把这台工作台调成你自己的**](/reading/claude-science/06-settings-center) — *Claude Science 绿皮书连载 · 2026-07-15*
 - 📗 [**05 · 框架介绍：从最外层，一层层看懂这个软件**](/reading/claude-science/05-interface-framework) — *Claude Science 绿皮书连载 · 2026-07-13*

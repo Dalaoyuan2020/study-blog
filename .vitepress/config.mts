@@ -63,6 +63,10 @@ export default defineConfig({
               text: '08 · 界面与溯源：这堆按钮里，哪个是真会天天点的',
               link: '/reading/claude-science/08-buttons-notebook-versions',
             },
+            {
+              text: '09 · 疟疾论文笔记：上限在你选「怎么看」那一步就定好了',
+              link: '/reading/claude-science/09-malaria-paper-notes',
+            },
           ],
         },
         {
