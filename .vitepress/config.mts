@@ -64,8 +64,8 @@ export default defineConfig({
               link: '/reading/claude-science/08-buttons-notebook-versions',
             },
             {
-              text: '09 · 疟疾论文笔记：上限在你选「怎么看」那一步就定好了',
-              link: '/reading/claude-science/09-malaria-paper-notes',
+              text: '09 · 疟疾红细胞分类：四步常规优化，召回率从 84% 爬到 96%',
+              link: '/reading/claude-science/09-malaria-cell-classification',
             },
           ],
         },
