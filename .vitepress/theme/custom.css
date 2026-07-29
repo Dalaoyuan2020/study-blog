@@ -21,9 +21,10 @@
   width: 460px;
 }
 
-/* 方形封面收窄居中 */
+/* 封面：照 07/08 的老规矩，一张大图满宽贴上，不收窄 */
 .malaria09 .vp-doc img[src*="cover"] {
-  width: 380px;
+  width: 100%;
+  border-radius: 14px;
 }
 
 /* 结尾总结图：满列收场，作为整篇的视觉句号 */
