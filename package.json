@@ -8,10 +8,15 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "keywords": ["vitepress", "blog", "reading-notes"],
+  "keywords": [
+    "vitepress",
+    "blog",
+    "reading-notes"
+  ],
   "author": "Winnie",
   "license": "CC-BY-NC-SA-4.0",
   "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "^1.6.4"
   }
 }

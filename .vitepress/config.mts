@@ -67,6 +67,10 @@ export default defineConfig({
               text: '09 · 疟疾红细胞分类：四步常规优化，召回率从 84% 爬到 96%',
               link: '/reading/claude-science/09-malaria-cell-classification',
             },
+            {
+              text: '番外篇 01 · 论文原版：疟疾红细胞图像分类方法比较研究',
+              link: '/reading/claude-science/09-malaria-paper-original',
+            },
           ],
         },
         {
@@ -155,5 +159,6 @@ export default defineConfig({
 
   markdown: {
     lineNumbers: false,
+    math: true,          // 番外篇01论文公式需要；markdown-it-mathjax3
   },
 })

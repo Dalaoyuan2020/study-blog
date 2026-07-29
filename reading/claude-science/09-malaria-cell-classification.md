@@ -200,3 +200,5 @@ pageClass: malaria09
 这一篇只讲实验怎么一步步优化。跑完之后，手上那四组数、九张图、一份锁死的划分文件，该怎么变成一篇论文，单独写一篇：下一篇「跑完实验之后：怎么把它写成一篇论文」。一篇标准论文分几块、每一块该交什么、这四步各自填进了哪一块，那一篇里一格一格拆。
 
 配图都在 `claude-science-green-book` 仓库 `articles/assets/day09/`，数据与代码在私有素材库 `claude-science-materials` 的 `day09/`，本篇背后的完整论文原版（番外）在同仓库 `extras/day09-malaria-paper-original.md`。
+
+论文原版也可以直接在线读：[基于特征工程与深度学习的疟疾红细胞图像分类方法比较研究](/reading/claude-science/09-malaria-paper-original)

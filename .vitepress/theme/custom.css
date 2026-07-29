@@ -41,3 +41,50 @@
   font-size: 14px;
   margin: 0 0 24px;
 }
+
+/* ============================================================
+   番外篇 01 · 论文原版（页面级作用域 .paper09，不影响其它文章）
+   风格：干净无装饰——像论文，不圆角、不阴影、不加封面
+   ============================================================ */
+
+/* 图与图注同样可能挤在同一个 <p> 里，直接让 img 成块居中 */
+.paper09 .vp-doc p:has(> img) {
+  text-align: center;
+  margin: 26px 0 8px;
+}
+
+/* 配图：块级居中，不加圆角阴影；近方形混淆矩阵收窄避免占满屏 */
+.paper09 .vp-doc img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+}
+.paper09 .vp-doc img[src*="confusion"] {
+  width: 460px;
+}
+
+/* 图注：居中、弱化 */
+.paper09 .vp-doc p:has(> img) + p {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 13.5px;
+  margin: 0 0 24px;
+}
+
+/* 表 1 有 8 列，窄屏可横向滚动，不撑破版面 */
+.paper09 .vp-doc table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+/* 数值列右对齐（表头与数据） */
+.paper09 .vp-doc table th,
+.paper09 .vp-doc table td {
+  white-space: nowrap;
+}
+
+/* 块级公式居中 */
+.paper09 .vp-doc mjx-container[display="true"] {
+  margin: 18px 0;
+  overflow-x: auto;
+}

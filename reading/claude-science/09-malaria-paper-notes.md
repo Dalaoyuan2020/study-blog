@@ -8,7 +8,7 @@
 
 > 这是第 09 篇案例背后那篇论文的学习笔记。
 >
-> - 论文原版（番外）：[day09-malaria-paper-original.md](https://github.com/Dalaoyuan2020/claude-science-green-book/blob/master/extras/day09-malaria-paper-original.md)
+> - 论文原版（番外篇 01 · 在线读）：[基于特征工程与深度学习的疟疾红细胞图像分类方法比较研究](/reading/claude-science/09-malaria-paper-original)
 > - 对应正文（图文并茂版）：[day09-preview.md](https://github.com/Dalaoyuan2020/claude-science-green-book/blob/master/articles/day09-preview.md)
 >
 > 所有数字出自论文表 1、表 2（测试集原始输出），未做二次推算。
