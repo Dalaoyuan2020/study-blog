@@ -1,0 +1,38 @@
+/* 09 疟疾红细胞分类：统一配图视觉重量（页面级作用域 .malaria09，不影响其它文章） */
+
+/* 配图段落居中，给图与图注留出呼吸感 */
+.malaria09 .vp-doc p:has(> img) {
+  text-align: center;
+  margin: 28px 0 8px;
+}
+
+/* 所有配图统一圆角 + 浅阴影，去掉"贴白底"的廉价感 */
+.malaria09 .vp-doc img {
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(20, 60, 42, 0.12);
+}
+
+/* 近方形的混淆矩阵收窄居中，不再撑成大正方形 */
+.malaria09 .vp-doc img[src*="confusion"] {
+  width: 460px;
+}
+
+/* 方形封面收窄居中 */
+.malaria09 .vp-doc img[src*="cover"] {
+  width: 380px;
+}
+
+/* 结尾总结图：满列收场，作为整篇的视觉句号 */
+.malaria09 .vp-doc img[src*="summary"] {
+  width: 100%;
+  max-width: 760px;
+  border-radius: 16px;
+}
+
+/* 图注：居中、弱化，不再和正文一个分量 */
+.malaria09 .vp-doc p:has(> img) + p {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  margin: 0 0 24px;
+}
