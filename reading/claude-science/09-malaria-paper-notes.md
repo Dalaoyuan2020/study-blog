@@ -1,6 +1,6 @@
 # 09 · 疟疾论文笔记：上限在你选「怎么看」那一步就定好了
 
-> 本页是背后论文的学习笔记，正文看这里：[09 · 疟疾红细胞分类：四步常规优化，召回率从 84% 爬到 96%](/reading/claude-science/09-malaria-cell-classification)
+> **本篇为番外，正文见新页**：[09 · 疟疾红细胞分类：四步常规优化，召回率从 84% 爬到 96%](/reading/claude-science/09-malaria-cell-classification)。这一页是背后论文的学习笔记，不是第 9 篇正文。
 
 *Claude Science 绿皮书 · 第 9 篇背后论文的学习笔记 · 2026-07-29*
 
