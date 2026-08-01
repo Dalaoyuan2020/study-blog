@@ -71,6 +71,10 @@ export default defineConfig({
               text: '番外篇 01 · 论文原版：疟疾红细胞图像分类方法比较研究',
               link: '/reading/claude-science/09-malaria-paper-original',
             },
+            {
+              text: '番外 · 8 块钱的一夜（DeepSeek V4 Flash 实测）',
+              link: '/reading/claude-science/extra01-deepseek-v4-flash',
+            },
           ],
         },
         {

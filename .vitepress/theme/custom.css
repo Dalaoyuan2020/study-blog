@@ -88,3 +88,54 @@
   margin: 18px 0;
   overflow-x: auto;
 }
+
+/* ============================================================
+   番外篇 · 8 块钱的一夜（页面级作用域 .extra01，不影响其它文章）
+   沿用 malaria09 那套：图块级居中、近方形收窄、图注居中弱化、表格可横滚
+   ============================================================ */
+
+/* 图与图注常挤在同一个 <p> 里，直接让 img 成块居中 */
+.extra01 .vp-doc p:has(> img) {
+  text-align: center;
+  margin: 28px 0 24px;
+}
+
+/* 配图统一圆角 + 浅阴影，块级居中 */
+.extra01 .vp-doc img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(20, 60, 42, 0.12);
+}
+
+/* 封面：一张大图满宽贴上，不收窄 */
+.extra01 .vp-doc img[src*="cover"] {
+  width: 100%;
+  border-radius: 14px;
+}
+
+/* 近方形的账单截图收窄居中，不撑成大正方形 */
+.extra01 .vp-doc img[src*="fig-bill"] {
+  width: 480px;
+}
+
+/* 图注：居中、弱化 */
+.extra01 .vp-doc p:has(> img) + p {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+
+/* 表格窄屏可横向滚动，不撑破版面 */
+.extra01 .vp-doc table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.extra01 .vp-doc table th,
+.extra01 .vp-doc table td {
+  white-space: nowrap;
+}
+
