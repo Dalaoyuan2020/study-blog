@@ -75,6 +75,10 @@ export default defineConfig({
               text: '番外 · 8 块钱的一夜（DeepSeek V4 Flash 实测）',
               link: '/reading/claude-science/extra01-deepseek-v4-flash',
             },
+            {
+              text: '10 · 论文不是写出来的，是改出来的',
+              link: '/reading/claude-science/10-paper-six-iterations',
+            },
           ],
         },
         {
