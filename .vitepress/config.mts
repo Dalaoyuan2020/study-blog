@@ -79,6 +79,10 @@ export default defineConfig({
               text: '10 · 好论文，改出来',
               link: '/reading/claude-science/10-paper-six-iterations',
             },
+            {
+              text: '11 · 30 分钟速通比赛：一个工具包',
+              link: '/reading/claude-science/11-baseline-kit-30min',
+            },
           ],
         },
         {

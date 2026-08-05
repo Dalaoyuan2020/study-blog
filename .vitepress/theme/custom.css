@@ -169,4 +169,39 @@
   max-width: 100%;
 }
 
+/* ============================================================
+   第 11 篇 · 30 分钟速通比赛（页面级作用域 .paper11，不影响其它文章）
+   ============================================================ */
+.paper11 .vp-doc p:has(> img) {
+  text-align: center;
+  margin: 28px 0 24px;
+}
+.paper11 .vp-doc img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(20, 60, 42, 0.12);
+}
+.paper11 .vp-doc img[src*="cover"] {
+  width: 100%;
+  border-radius: 14px;
+}
+.paper11 .vp-doc p:has(> img) + p {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+.paper11 .vp-doc table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.paper11 .vp-doc table th,
+.paper11 .vp-doc table td {
+  white-space: nowrap;
+}
+
+
 
