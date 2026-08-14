@@ -21,6 +21,8 @@ Claude Science 绿皮书第 12 期 · 2026-08-14
 
 （图待补：no-windows-build.png）
 
+*官方下载页只有 Mac（Apple Silicon）、Mac（Intel）、Linux 三个入口，没有 Windows*
+
 我用的是 Windows，只能把 Linux 版塞进 WSL 里跑。这就带出一个容易搞混的地方：我在助手界面点的「升级」，升的是 Claude Science Assistant 这个启动器；WSL 里跑起来的 Claude Science 本体，是另一条版本线，二进制随包发布，包不重打，它不动。
 
 助手自己有一串版本号，本体又是另一串，两条线各走各的——助手升一版，不代表本体也跟着动。
