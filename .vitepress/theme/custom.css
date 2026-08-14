@@ -203,5 +203,39 @@
   white-space: nowrap;
 }
 
+/* ============================================================
+   第 12 篇 · 三档聚合（页面级作用域 .paper12，不影响其它文章）
+   ============================================================ */
+.paper12 .vp-doc p:has(> img) {
+  text-align: center;
+  margin: 28px 0 24px;
+}
+.paper12 .vp-doc img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 16px rgba(20, 60, 42, 0.12);
+}
+.paper12 .vp-doc img[src*="cover"] {
+  width: 100%;
+  border-radius: 14px;
+}
+.paper12 .vp-doc p:has(> img) + p {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  margin: 0 0 24px;
+}
+.paper12 .vp-doc table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.paper12 .vp-doc table th,
+.paper12 .vp-doc table td {
+  white-space: nowrap;
+}
+
 
 

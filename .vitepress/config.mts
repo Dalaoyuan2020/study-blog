@@ -83,6 +83,10 @@ export default defineConfig({
               text: '11 · 30 分钟速通比赛：一个工具包',
               link: '/reading/claude-science/11-baseline-kit-30min',
             },
+            {
+              text: '12 · 好用，但它不看图',
+              link: '/reading/claude-science/12-three-lane-aggregate',
+            },
           ],
         },
         {
