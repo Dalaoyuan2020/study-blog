@@ -84,7 +84,7 @@ export default defineConfig({
               link: '/reading/claude-science/11-baseline-kit-30min',
             },
             {
-              text: '12 · 好用，但它不看图',
+              text: '12 · 先把内核追上，再让它看图',
               link: '/reading/claude-science/12-three-lane-aggregate',
             },
           ],
